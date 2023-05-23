@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.ivanmagda.habito">
+    package="com.andreit.habitudetracker">
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
@@ -57,7 +57,7 @@
             android:label="@string/title_widget_detail">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-                <action android:name="com.ivanmagda.habito.DATA_FETCHED" />
+                <action android:name="com.andreit.habitudetracker.DATA_FETCHED" />
             </intent-filter>
 
             <meta-data

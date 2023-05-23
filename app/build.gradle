@@ -17,12 +17,12 @@ android {
             storePassword keystoreProperties['storePassword']
         }
     }
-    compileSdkVersion 27
+    compileSdkVersion 31
     buildToolsVersion "27.0.3"
     defaultConfig {
-        applicationId "com.ivanmagda.habito"
+        applicationId "com.andreit.habitudetracker"
         minSdkVersion 16
-        targetSdkVersion 27
+        targetSdkVersion 31
         versionCode 1
         versionName "0.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -37,15 +37,18 @@ android {
 }
 
 dependencies {
+    implementation platform('com.google.firebase:firebase-bom:32.0.0')
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     androidTestImplementation('com.android.support.test.espresso:espresso-core:3.0.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     // Support
-    implementation 'com.android.support:design:27.1.1'
-    implementation 'com.android.support:appcompat-v7:27.1.1'
-    implementation 'com.android.support:cardview-v7:27.1.1'
-    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'com.android.support:design:31.1.1'
+    implementation 'com.android.support:appcompat-v7:31.1.1'
+    implementation 'com.android.support:cardview-v7:31.1.1'
+    implementation 'com.android.support:recyclerview-v7:31.1.1'
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+
     // GMS
     implementation 'com.google.android.gms:play-services-auth:15.0.1'
     // Firebase

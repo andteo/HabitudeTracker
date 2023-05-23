@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Habito</string>
+    <string name="app_name">HabitudeTracker</string>
     <string name="activity_create_label">Create</string>
     <string name="activity_edit_label">Edit</string>
     <string name="activity_detail_label">Detail</string>
-    <string name="title_widget_detail">Habito Details</string>
+    <string name="title_widget_detail">HabitudeTracker Details</string>
 
     <string name="no_data_available">No data available.</string>
 
@@ -16,7 +16,7 @@
     <string name="action_sort_by_date">Sort by Date</string>
     <string name="delete_habit_message">Are you sure, you want to delete habit and all associated data?</string>
 
-    <string name="preference_sort_file_key" translatable="false">com.ivanmagda.habito.SORT_PREFERENCE_FILE_KEY</string>
+    <string name="preference_sort_file_key" translatable="false">com.andreit.habitudetracker.SORT_PREFERENCE_FILE_KEY</string>
     <string name="saved_sort_order" translatable="false">sort_order</string>
 
     <string name="week">Week</string>
